@@ -1,0 +1,46 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/personal_center/data",
+		    "style" : {
+				"navigationStyle":"custom"
+			}
+		}
+		,{
+		    "path" : "pages/personal_center/personal_center",
+		    "style" : {}
+		}
+		,{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+
+        
+       
+        ,{
+            "path" : "pages/personal_center/history",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal_center/contribute",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal_center/information",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal_center/information",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
